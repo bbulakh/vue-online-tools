@@ -1,19 +1,8 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
-  <div class="greetings">
-    <h1>{{ msg }}</h1>
+  <div>
+    <h1 class="text-4xl">Cools</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Collection of useful and fun tools that you can use for your purposes
     </h3>
   </div>
 </template>
