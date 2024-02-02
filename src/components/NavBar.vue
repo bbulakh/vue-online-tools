@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full py-3 flex items-center justify-between">
+  <header class="w-full py-3 flex items-center justify-between px-[2rem]">
     <a class="w-fit" href="#">
       <img class="w-[80px]" src="/images/logo.svg" alt="Cools logo" />
     </a>
