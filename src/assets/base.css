@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -54,13 +56,6 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
-}
 
 body {
   min-height: 100vh;
