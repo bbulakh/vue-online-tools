@@ -1,16 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue';
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import Hero from './components/Hero.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <NavBar></NavBar>
+  <NavBar />
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    
 
     <div class="wrapper">
-      <HelloWorld msg="COOLS" />
+      <Hero />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -20,6 +21,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <Footer></Footer>
 </template>
 
 <style scoped>
@@ -49,7 +51,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-
-  
 }
 </style>
