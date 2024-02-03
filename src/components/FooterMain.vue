@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#242424] text-white">
     <div class="p-[2rem]">
-        <img class="w-1/2" src="/public/images/logo-inverted.svg" alt="Cools inverted logo">
+        <img class="w-1/2" src="/src/assets/images/logo-inverted.svg" alt="Cools inverted logo">
         <p class="text-white w-1/2">Cools is a bunch of useful and fun tools that you can use for your purposes</p>
         
         <div class="flex flex-col">

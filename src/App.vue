@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
-import Hero from './components/Hero.vue'
-import Footer from './components/Footer.vue'
+import HeroMain from './components/HeroMain.vue'
+import FooterMain from './components/FooterMain.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import Footer from './components/Footer.vue'
     
 
     <div class="wrapper">
-      <Hero />
+      <HeroMain />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -21,7 +21,7 @@ import Footer from './components/Footer.vue'
   </header>
 
   <RouterView />
-  <Footer></Footer>
+  <FooterMain />
 </template>
 
 <style scoped>
