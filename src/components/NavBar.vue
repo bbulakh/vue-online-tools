@@ -1,7 +1,7 @@
 <template>
-  <header class="w-full py-3 flex items-center justify-between px-[2rem]">
+  <header class="w-full py-3 flex items-center justify-between px-[2rem] mb-10">
     <a class="w-fit" href="#">
-      <img class="w-[80px]" src="/images/logo.svg" alt="Cools logo" />
+      <img class="w-[80px]" src="/src/assets/images/logo.svg" alt="Cools logo" />
     </a>
 
     <nav class="hidden">
