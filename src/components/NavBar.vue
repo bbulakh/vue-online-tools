@@ -1,7 +1,7 @@
 <template>
-  <header class="w-full py-3 flex items-center justify-between px-[2rem] mb-10">
+  <header class="w-full py-3 flex items-center justify-between px-[2rem] mb-10 mt-5">
     <a class="w-fit" href="#">
-      <img class="w-[80px]" src="/src/assets/images/logo.svg" alt="Cools logo" />
+      <img class="w-[120px]" src="/src/assets/images/logo.svg" alt="Cools logo" />
     </a>
 
     <nav class="hidden">
@@ -18,7 +18,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-7 h-7"
+        class="w-10 h-10"
       >
         <path
           fill-rule="evenodd"
