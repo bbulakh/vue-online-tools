@@ -10,7 +10,7 @@ import ButtonWithIcon from './ButtonWithIcon.vue'
       src="/src/assets/images/bg-doodle.svg"
       alt="Background doodle"
     />
-    <h1 class="text-8xl mb-1">Cools</h1>
+    <h1 class="text-8xl mb-1 text-[#242424]">Cools</h1>
     <h3 class="mb-5 text-lg">
       Collection of useful and fun tools that you can use to work with numbers, strings and more
     </h3>
