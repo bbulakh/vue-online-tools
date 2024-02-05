@@ -1,5 +1,5 @@
 <script setup>
-  import ButtonPrimary from './ButtonPrimary.vue'
+import ButtonPrimary from './ButtonPrimary.vue'
 </script>
 
 <template>
@@ -11,13 +11,13 @@
           src="/src/assets/images/logo-inverted.svg"
           alt="Cools inverted logo"
         />
-        <p class="text-white w-2/3">
+        <p class="text-white w-5/6">
           Cools is a bunch of useful and fun tools that you can use for your purposes
         </p>
       </div>
 
       <div class="flex flex-col">
-        <h2 class="text-3xl text-left mb-3">Feel free to send me your feedback</h2>
+        <h2 class="text-3xl text-left mb-3">Feel free to share your feedback</h2>
         <form class="flex flex-col gap-3">
           <input class="p-2" type="text" placeholder="Enter Your Name" />
           <input class="p-2" type="text" placeholder="E-mail" />
