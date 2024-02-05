@@ -20,10 +20,10 @@ import ButtonPrimary from './ButtonPrimary.vue'
         <h2 class="text-3xl text-left mb-3">FEEL FREE to share your feedback</h2>
 
         <form class="flex flex-col gap-3">
-          <input class="p-2" type="text" placeholder="Enter Your Name" />
-          <input class="p-2" type="text" placeholder="E-mail" />
+          <input class="p-2 rounded-md" type="text" placeholder="Enter Your Name" />
+          <input class="p-2 rounded-md" type="text" placeholder="E-mail" />
           <textarea
-            class="text-black p-2"
+            class="text-black p-2 rounded-md"
             placeholder="Write your ideas here..."
             name=""
             id=""
