@@ -8,19 +8,23 @@ import FooterMain from './components/FooterMain.vue'
 <template>
   <NavBar />
   <header>
-    
-
     <div class="wrapper">
       <HeroMain />
 
-      <nav>
+      <nav class="justify-center gap-3 hidden">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <section class="mt-10 bg-[#F4EEDB] p-[2rem]">
+    <h2 class="text-7xl mb-3">TOOLS</h2>
+    <div></div>
+    <input class="w-full p-2 rounded-md outline-none" type="search" placeholder="Search Tool..."/>
+  </section>
+
+  <div class="hidden"><RouterView /></div>
   <FooterMain />
 </template>
 
@@ -44,12 +48,6 @@ header {
 
   .logo {
     margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
   }
 }
 </style>
