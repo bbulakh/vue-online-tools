@@ -17,7 +17,8 @@ import ButtonPrimary from './ButtonPrimary.vue'
       </div>
 
       <div class="flex flex-col">
-        <h2 class="text-3xl text-left mb-3">Feel free to share your feedback</h2>
+        <h2 class="text-3xl text-left mb-3">FEEL FREE to share your feedback</h2>
+
         <form class="flex flex-col gap-3">
           <input class="p-2" type="text" placeholder="Enter Your Name" />
           <input class="p-2" type="text" placeholder="E-mail" />
@@ -34,8 +35,8 @@ import ButtonPrimary from './ButtonPrimary.vue'
       </div>
     </div>
 
-    <div class="flex justify-center items-center text-black bg-[#A8EB53]">
-      <h2>{{ new Date().getFullYear() }}, Bogdan Bulakh</h2>
+    <div class="flex justify-center items-center text-[#242424] bg-[#A8EB53]">
+      <h2 class="py-2">{{ new Date().getFullYear() }}, Bogdan Bulakh</h2>
     </div>
   </footer>
 </template>
