@@ -15,8 +15,17 @@ import ButtonWithIcon from './ButtonWithIcon.vue'
       Collection of useful and fun tools that you can use to work with numbers, strings and more
     </h3>
     <div class="flex flex-col gap-3 justify-center">
-      <ButtonPrimary bgColor="bg-[#A8EB53]" btnText="EXPLORE" textColor="text-[#242424]" />
-      <ButtonWithIcon bgColor="bg-[#242424]" textColor="text-[#EBEBEB]">
+      <ButtonPrimary
+        url="/#tools"
+        bgColor="bg-[#A8EB53]"
+        btnText="EXPLORE"
+        textColor="text-[#242424]"
+      />
+      <ButtonWithIcon
+        url="https://github.com/bbulakh/vue-online-tools"
+        bgColor="bg-[#242424]"
+        textColor="text-[#EBEBEB]"
+      >
         <template #icon>
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 16 16">
             <path
