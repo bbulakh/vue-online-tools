@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import HeroMain from './components/HeroMain.vue'
+import ToolsSection from './components/ToolsSection.vue'
 import FooterMain from './components/FooterMain.vue'
 </script>
 
@@ -18,36 +19,10 @@ import FooterMain from './components/FooterMain.vue'
     </div>
   </header>
 
-  <section class="mt-10 bg-[#F4EEDB] p-[2rem]">
-    <h2 class="text-7xl mb-3">TOOLS</h2>
-    <div></div>
-    <input class="w-full p-2 rounded-md outline-none" type="search" placeholder="Search Tool..."/>
-  </section>
+  <ToolsSection />
 
   <div class="hidden"><RouterView /></div>
   <FooterMain />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-}
-</style>
