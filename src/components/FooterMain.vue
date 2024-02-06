@@ -4,10 +4,10 @@ import ButtonPrimary from './ButtonPrimary.vue'
 
 <template>
   <footer class="bg-[#242424] text-white">
-    <div class="p-[2rem] flex flex-col gap-4">
+    <div class="p-[2rem] flex flex-col gap-4 container mx-auto">
       <div>
         <img
-          class="w-1/2 mb-2"
+          class="w-1/2 max-w-[216px] mb-2"
           src="/src/assets/images/logo-inverted.svg"
           alt="Cools inverted logo"
         />
@@ -30,7 +30,7 @@ import ButtonPrimary from './ButtonPrimary.vue'
             cols="30"
             rows="5"
           ></textarea>
-          <ButtonPrimary bgColor="bg-[#EA985D]" btnText="SEND FEEDBACK" textColor="text-white" />
+          <ButtonPrimary url="#" bgColor="bg-[#EA985D]" btnText="SEND FEEDBACK" textColor="text-white" />
         </form>
       </div>
     </div>
