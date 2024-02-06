@@ -2,13 +2,19 @@
 export default {
   props: {
     bgColor: String,
-    textColor: String
-  }
+    textColor: String,
+    url: {
+      type: String,
+      required: true
+    }
+  },
 }
 </script>
 
 <template>
-  <button
+  <a :href="url"
+  rel="nofollow"
+  target="_blank"
     :class="[
       'w-full',
       'flex',
@@ -23,7 +29,7 @@ export default {
   >
     <slot name="icon"></slot>
     <slot><span></span></slot>
-  </button>
+  </a>
 </template>
 
 <style scoped>

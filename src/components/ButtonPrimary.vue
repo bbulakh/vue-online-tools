@@ -5,14 +5,18 @@ export default {
     btnText: String,
     bgColor: String,
     textColor: String,
+    url: {
+      type: String,
+      required: true
+    }
   }
 }
 </script>
 
 <template>
-  <button :class="['w-full', 'py-3', 'rounded-md', bgColor, textColor]">
+  <a :href="url" :class="['w-full', 'py-3', 'text-center', 'rounded-md', bgColor, textColor]">
     {{ btnText }}
-  </button>
+  </a>
 </template>
 
 <style scoped>
